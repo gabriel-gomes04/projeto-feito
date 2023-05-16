@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 1500px;
+    width: 100%;
+    background-color: #f8ffdb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+nav ul {
+    background-image: url(full-banner-lancamentos.png);
+    background-size: 100%;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    color: rgb(16, 16, 17);
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+
+
+}
+@font-face {
+    font-family: fonte_arial;
+    src: url(arial-black.ttf);
+    text-decoration: none;
+  }
+#Background {
+    border-bottom-color: #333333;
+    border-top-color: #333333;
+    border-left-color: #333333;
+    border-right-color: #333333;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    background-color: #ffffff;
+  
+  }
+  .flex-container {
+   display: flex;
+   justify-content: center; 
+   background-color: #f8ffdb ;
+   flex-direction: row
+ 
+  }
+  
+  #Tab_1 {
+    color: #090000;
+    text-align: center;
+    font-family: "fonte_arial", " Gadget", " sans-serif";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1;
+    border-bottom-color: #333333;
+    border-top-color: #333333;
+    border-left-color: #333333;
+    border-right-color: #333333;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    background-color: #ffffff;
+
+
+  }
+  
+  #Tab_2 {
+    color: #333333;
+    text-align: center;
+    font-family: "Arial Black", " Gadget", " sans-serif";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1;
+    border-bottom-color: #333333;
+    border-top-color: #333333;
+    border-left-color: #333333;
+    border-right-color: #333333;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    background-color: #ffffff;
+  }
+  
+  #Tab_3 {
+    color: #333333;
+    text-align: center;
+    font-family: "Arial Black", " Gadget", " sans-serif";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1;
+    border-bottom-color: #333333;
+    border-top-color: #333333;
+    border-left-color: #333333;
+    border-right-color: #333333;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    background-color: #ffffff;
+  }
+  
+  #Tab_4 {
+    color: #333333;
+    text-align: center;
+    font-family: "Arial Black", " Gadget", " sans-serif";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1;
+    border-bottom-color: #333333;
+    border-top-color: #333333;
+    border-left-color: #333333;
+    border-right-color: #333333;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    background-color: #ffffff;
+  }
+
+  @font-face {
+    font-family: fonte_arial;
+    src: url(arial-black.ttf);
+    text-decoration: none;
+  }
+.Menu {
+    color: #090000;
+    text-align: center;
+    font-family: "arial-black.ttf", " Gadget", " sans-serif";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1;
+    border-bottom-color: #333333;
+    border-top-color: #333333;
+    border-left-color: #333333;
+    border-right-color: #333333;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    background-color: #ffffff;
+
+}
+#Areaboxes1 {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#caixaazulclaro {}
+
+#caixaverdeclaro {}
+
+#Areaboxes2 {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#caixavermelho {}
+
+#caixaroxo {}
+
+.box {
+    width: 30%;
+    height: 250px;
+    border: 2px solid black;
+}
+
+
+#rodape {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
